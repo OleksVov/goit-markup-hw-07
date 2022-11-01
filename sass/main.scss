@@ -1,4 +1,29 @@
 @import "./utils/vars";
 @import "./utils/placeholders";
-@import "./utils/-mixins.scss";
+@import "./utils/mixins.scss";
+@import "./components/base";
 @import "./components/page-header";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/contact";
+@import "./components/hero";
+@import "./components/section";
+@import "./components/features";
+
+
+.list {
+   @extend %list;
+}
+.container {
+   @extend %container;
+}
+.overlay {
+   @extend %overlay;
+}
+.button {
+   @extend %button;
+}
+.visually-hidden {
+   @extend %visually-hidden;
+}
+
