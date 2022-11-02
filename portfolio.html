@@ -15,12 +15,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./sass/main.scss" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Верхня лінія-->
     <header class="page-header">
-      <div class="container box-header">
+      <div class="container page-header__box">
         <nav class="breadcrumb">
           <a class="logo page-header__logo" href="./index.html">Web<span class="logo__header">Studio</span></a>
           <ul class="breadcrumb__list list">
@@ -60,11 +60,11 @@
         <div class="container">
           <h1 class="section__title visually-hidden">Портфоліо</h1>
           <ul class="selection list">
-            <li class="selection__item"><button type="button" class="selection__button">Усі</button></li>
-            <li class="selection__item"><button type="button" class="selection__button">Веб-сайти</button></li>
-            <li class="selection__item"><button type="button" class="selection__button">Додатки</button></li>
-            <li class="selection__item"><button type="button" class="selection__button">Дизайн</button></li>
-            <li class="selection__item"><button type="button" class="selection__button">Маркетинг</button></li>
+            <li class="selection__item"><button type="button" class="button selection__button">Усі</button></li>
+            <li class="selection__item"><button type="button" class="button selection__button">Веб-сайти</button></li>
+            <li class="selection__item"><button type="button" class="button selection__button">Додатки</button></li>
+            <li class="selection__item"><button type="button" class="button selection__button">Дизайн</button></li>
+            <li class="selection__item"><button type="button" class="button selection__button">Маркетинг</button></li>
           </ul>
           <ul class="projects list">
             <li class="projects__item">
@@ -247,7 +247,7 @@
     </main>
     <footer class="page-footer">
       <div class="container">
-        <div class="box-footer">
+        <div class="page-footer__box">
           <div>
             <a class="logo" href="./index.html">Web<span class="logo__footer">Studio</span></a>
             <address class="address">
@@ -268,8 +268,8 @@
               </ul>
             </address>
           </div>
-          <div class="box-action">
-            <p class="action">Приєднуйтесь</p>
+          <div class="page-footer__social">
+            <p class="page-footer__text">Приєднуйтесь</p>
             <ul class="social list">
               <li class="social__item">
                 <a href="#" class="social__link social__link--background">
@@ -302,7 +302,7 @@
             </ul>
           </div>
           <div class="subscribe">
-            <p class="action">Підпишіться на розсилку</p>
+            <p class="page-footer__text">Підпишіться на розсилку</p>
             <form class="subscribe__form" name="subscribe-form" autocomplete="on">
               <input
                 class="subscribe__input"
